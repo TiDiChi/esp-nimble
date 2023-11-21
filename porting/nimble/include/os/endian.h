@@ -173,7 +173,7 @@ extern "C" {
 #endif
 
 #ifndef htobe32
-#define htobe32(x) os_bswap_32(x)
+     #define htobe32(x) os_bswap_32(x)
 #endif
 
 #ifndef htole32
